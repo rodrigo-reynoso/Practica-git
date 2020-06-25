@@ -1,0 +1,26 @@
+* {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.contenedor_fecha{
+    display: flex; 
+    font-family: 'Pangolin', cursive;
+    font-size: 30px;
+    color: white;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(6, 0, 7);
+}
+
+#diaSemana{
+    background-color: yellow;
+    padding-top: 5px;
+}
+
+#dia{
+    color: tomato;
+    padding-top: 5px;
+}
+
+#mesLetra{
+    padding-top: 5px;
+}
