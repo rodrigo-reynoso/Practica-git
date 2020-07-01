@@ -68,11 +68,14 @@ if (diaMesImpar(fecha)) {
   colorDiaMesImpar.style.color = "#ffbd69";
 }
 
+const textoHora = (fecha) => `${fecha.getHours()}:${fecha.getMinutes()}`
+
  
 // document.getElementById('diaSemana').innerHTML = textodia(fecha);
 // console.log(textodia(fecha));
 document.getElementById("diaSemana").innerHTML = textodia(fecha);
 document.getElementById("dia").innerHTML = fecha.getDate();
 document.getElementById("mesLetra").innerHTML = textoMes(fecha);
+document.getElementById("hora").innerHTML = textoHora(fecha);
 console.log(dia);
 console.log(mesLetra);
